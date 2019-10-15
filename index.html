@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>JKM</title>
+  <meta name="description" content="JKM">
+  <meta name="author" content="cubsoon">
+
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Barlow+Condensed:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="blockquote-wrapper">
+  <div class="blockquote">
+    <h1 id="quote">
+      ...
+    </h1>
+    <h4>
+      &mdash; JKM na dziś
+      <br>źródło: <a href="https://www.facebook.com/Zblizeniowy/" target="_blank">Zbliżeniowy</a> | styl: <a href="https://freefrontend.com/css-quote-styles/" target="_blank">23 CSS Blockquotes</a>
+    </h4>
+  </div>
+  </div>
+  <script>
+    window.onload = function() {
+      document.getElementById("quote").innerHTML = get_quote();
+    }
+  </script>
+</body>
+
+</html>
